@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 import { AICommons } from '../../Commons/AI commons/ai-commons'
 
 test.describe('Ollama API Tests', () => {
+    test.skip(!!process.env.CI, 'Skip Ollama tests in CI');
 
     let aiCommons: AICommons;
 

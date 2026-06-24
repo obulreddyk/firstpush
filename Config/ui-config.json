@@ -1,0 +1,21 @@
+{
+    "application":{
+               "url":"https://qa-internal-auth.neokred.tech:9444/login"},
+   
+            
+    "UAT":{
+        "baseUrl":"https://preprod-tms.neokred.tech/login"
+    },
+
+    "API":{
+        "base url":"https://qa-iam.neokred.tech:9444/iam-svc/api/v2/auth/"
+    },
+
+     "Ollama":{
+        "baseurl":"http://localhost:11434",
+        "endpoint":"/api/generate"
+
+    }
+
+}      
+    

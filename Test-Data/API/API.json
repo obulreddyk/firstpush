@@ -1,0 +1,20 @@
+{
+    "loginotprequest":{
+     "requestType":"POST",
+     "endpoint":"user/login/send-otp",
+     "body":{
+        "emailOrMobile":"obul@neokred.tech",
+        "password":"NKtech@123"
+     }
+        },
+
+     "loginotpverification":{
+        "requestType":"POST",
+     "endpoint":"client/login/verify-otp",
+     "body":{
+        "otp":"123456",
+        "emailOrMobile":"obul@neokred.tech"
+    }
+
+}
+    }

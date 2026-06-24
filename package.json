@@ -1,0 +1,43 @@
+{
+  "name": "playwright-learning-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+
+    "ui": "playwright test tests/UI",
+    
+    "api":"playwright test tests/API",
+
+    "headed": "playwright test --headed",
+
+    "ui:headed": "playwright test tests/UI --headed",
+
+    "debug": "playwright test --debug",
+
+    "report": "playwright show-report",
+
+    "chrome": "playwright test --project=chromium",
+
+    "firefox": "playwright test --project=firefox",
+
+    "webkit": "playwright test --project=webkit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "devDependencies": {
+    "@playwright/test": "^1.61.0"
+  },
+  "dependencies": {
+    "@types/node": "^25.9.3",
+    "excel": "^1.0.1",
+    "parse": "^3.5.1",
+    "pdf": "^0.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3",
+    "xlsx": "^0.18.5"
+  }
+}

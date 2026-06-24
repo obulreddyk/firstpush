@@ -1,0 +1,4 @@
+[     543ms] [WARNING] [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`. @ https://internal-auth.neokred.tech/_next/static/chunks/pages/_app-fd0df0e686a8f269.js:11
+[     548ms] [WARNING] [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`. @ https://internal-auth.neokred.tech/_next/static/chunks/pages/_app-fd0df0e686a8f269.js:11
+[     548ms] [WARNING] [DEPRECATED] Default export is deprecated. Instead use `import { create } from 'zustand'`. @ https://internal-auth.neokred.tech/_next/static/chunks/pages/_app-fd0df0e686a8f269.js:11
+[     571ms] [LOG] https://internal-auth.neokred.tech @ https://internal-auth.neokred.tech/_next/static/chunks/pages/login-d34d07a99ae29910.js:0

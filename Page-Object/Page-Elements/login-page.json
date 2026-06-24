@@ -1,0 +1,7 @@
+{
+    "email": "input#email",
+    "password":"input#password",
+    "loginButton":"//button[text()='Login']",
+    "ForgetPassword":"//a[text()='Forgot password?']",
+    "ReserLink":"//button[text()='Get reset Link']"
+}

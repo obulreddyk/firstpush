@@ -1,0 +1,8 @@
+{
+    "ollama_basi_body":{
+        "model":"gemma4:latest",
+        "prompt":"expalian gemma4:latest ",
+        "stream":false
+    }
+    
+}
